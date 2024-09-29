@@ -36,7 +36,7 @@ double Fwallis(double *AproximacionPi, int counter){
 	return 2/(*AproximacionPi);
 }
 double Fploufee(double *AproximacionPi, int counter){
-	double OchoEne = (4/(8*(float)counter+1))-(2/(8*(float)counter+4))-(1/(8*(float)counter+5))-(1/(8*(float)counter+6));
+	double OchoEne = (4/(8*(double)counter+1))-(2/(8*(double)counter+4))-(1/(8*(double)counter+5))-(1/(8*(float)counter+6));
 	*AproximacionPi += OchoEne/pow(16,counter);
 	return *AproximacionPi;
 }
@@ -143,19 +143,19 @@ int ventana(GLFWwindow* window){
 				ImGui::Text("iteracion = %i	", counter);
 				ImGui::SameLine();
 				if(counter > 1){
-					ImGui::Text("Pi = %.6f", arr[counter-2]);
+					ImGui::Text("Pi = %.10f", arr[counter-2]);
 				}else{
 					ImGui::Text("Pi = %d", 0);
 				}
 				{
 					ImGui::BeginChild("Scrolling", ImVec2(ImGui::GetContentRegionAvail().x * 0.3f, 200));
 					if (counter > 10){
-						row1 = counter -11;
+						row1 = counter -10;
 						}else{
 						row1 = 0;
 					}
 					for (int row = row1; row < arr.size() ; row++){
-						ImGui::Text("Pi %.8f", arr[row]);
+						ImGui::Text("Pi %.10f", arr[row]);
 					}
 					
 					ImGui::EndChild();
