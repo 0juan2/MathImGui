@@ -1,0 +1,3 @@
+C:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/build/CMakeFiles/imgui_PI.dir
+C:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/build/CMakeFiles/edit_cache.dir
+C:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/build/CMakeFiles/rebuild_cache.dir
