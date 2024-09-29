@@ -11,7 +11,7 @@ include_directories(${CMAKE_SOURCE_DIR}/imgui/backends)
 #include_directories(filter_lib/include)
 #add_subdirectory(filter_lib)
 
-add_executable(imgui_PI 
+add_executable(AproximacionesDePi 
     main.cpp 
     imgui/imgui.cpp 
     imgui/imgui_draw.cpp 
@@ -25,4 +25,4 @@ find_package(PkgConfig REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(glfw3 REQUIRED)
 
-target_link_libraries(imgui_PI OpenGL::GL glfw )
+target_link_libraries(AproximacionesDePi OpenGL::GL glfw )

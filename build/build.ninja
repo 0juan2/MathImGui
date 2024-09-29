@@ -36,95 +36,95 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target imgui_PI
+# Object build statements for EXECUTABLE target AproximacionesDePi
 
 
 #############################################
-# Order-only phony target for imgui_PI
+# Order-only phony target for AproximacionesDePi
 
-build cmake_object_order_depends_target_imgui_PI: phony || .
+build cmake_object_order_depends_target_AproximacionesDePi: phony || .
 
-build CMakeFiles/imgui_PI.dir/main.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/main.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/main.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/main.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\main.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir
 
-build CMakeFiles/imgui_PI.dir/imgui/imgui.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/imgui/imgui.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\imgui\imgui.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\imgui\imgui.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir\imgui
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir\imgui
 
-build CMakeFiles/imgui_PI.dir/imgui/imgui_draw.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_draw.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/imgui/imgui_draw.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_draw.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\imgui\imgui_draw.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\imgui\imgui_draw.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir\imgui
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir\imgui
 
-build CMakeFiles/imgui_PI.dir/imgui/imgui_demo.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_demo.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/imgui/imgui_demo.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_demo.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\imgui\imgui_demo.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\imgui\imgui_demo.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir\imgui
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir\imgui
 
-build CMakeFiles/imgui_PI.dir/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/imgui/imgui_widgets.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_widgets.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\imgui\imgui_widgets.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\imgui\imgui_widgets.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir\imgui
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir\imgui
 
-build CMakeFiles/imgui_PI.dir/imgui/imgui_tables.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_tables.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/imgui/imgui_tables.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/imgui_tables.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\imgui\imgui_tables.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\imgui\imgui_tables.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir\imgui
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir\imgui
 
-build CMakeFiles/imgui_PI.dir/imgui/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/imgui/backends/imgui_impl_glfw.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends/imgui_impl_glfw.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\imgui\backends\imgui_impl_glfw.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\imgui\backends\imgui_impl_glfw.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir\imgui\backends
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir\imgui\backends
 
-build CMakeFiles/imgui_PI.dir/imgui/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__imgui_PI_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_imgui_PI
+build CMakeFiles/AproximacionesDePi.dir/imgui/backends/imgui_impl_opengl3.cpp.obj: CXX_COMPILER__AproximacionesDePi_unscanned_ C$:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends/imgui_impl_opengl3.cpp || cmake_object_order_depends_target_AproximacionesDePi
   DEFINES = -DGLFW_DLL
-  DEP_FILE = CMakeFiles\imgui_PI.dir\imgui\backends\imgui_impl_opengl3.cpp.obj.d
+  DEP_FILE = CMakeFiles\AproximacionesDePi.dir\imgui\backends\imgui_impl_opengl3.cpp.obj.d
   FLAGS = -std=gnu++11
   INCLUDES = -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui -IC:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/imgui/backends
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
-  OBJECT_FILE_DIR = CMakeFiles\imgui_PI.dir\imgui\backends
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
+  OBJECT_FILE_DIR = CMakeFiles\AproximacionesDePi.dir\imgui\backends
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target imgui_PI
+# Link build statements for EXECUTABLE target AproximacionesDePi
 
 
 #############################################
-# Link the executable imgui_PI.exe
+# Link the executable AproximacionesDePi.exe
 
-build imgui_PI.exe: CXX_EXECUTABLE_LINKER__imgui_PI_ CMakeFiles/imgui_PI.dir/main.cpp.obj CMakeFiles/imgui_PI.dir/imgui/imgui.cpp.obj CMakeFiles/imgui_PI.dir/imgui/imgui_draw.cpp.obj CMakeFiles/imgui_PI.dir/imgui/imgui_demo.cpp.obj CMakeFiles/imgui_PI.dir/imgui/imgui_widgets.cpp.obj CMakeFiles/imgui_PI.dir/imgui/imgui_tables.cpp.obj CMakeFiles/imgui_PI.dir/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/imgui_PI.dir/imgui/backends/imgui_impl_opengl3.cpp.obj | C$:/msys64/mingw64/lib/libglfw3.dll.a
+build AproximacionesDePi.exe: CXX_EXECUTABLE_LINKER__AproximacionesDePi_ CMakeFiles/AproximacionesDePi.dir/main.cpp.obj CMakeFiles/AproximacionesDePi.dir/imgui/imgui.cpp.obj CMakeFiles/AproximacionesDePi.dir/imgui/imgui_draw.cpp.obj CMakeFiles/AproximacionesDePi.dir/imgui/imgui_demo.cpp.obj CMakeFiles/AproximacionesDePi.dir/imgui/imgui_widgets.cpp.obj CMakeFiles/AproximacionesDePi.dir/imgui/imgui_tables.cpp.obj CMakeFiles/AproximacionesDePi.dir/imgui/backends/imgui_impl_glfw.cpp.obj CMakeFiles/AproximacionesDePi.dir/imgui/backends/imgui_impl_opengl3.cpp.obj | C$:/msys64/mingw64/lib/libglfw3.dll.a
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = -lopengl32  C:/msys64/mingw64/lib/libglfw3.dll.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\imgui_PI.dir
+  OBJECT_DIR = CMakeFiles\AproximacionesDePi.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = imgui_PI.exe
-  TARGET_IMPLIB = libimgui_PI.dll.a
-  TARGET_PDB = imgui_PI.exe.dbg
+  TARGET_FILE = AproximacionesDePi.exe
+  TARGET_IMPLIB = libAproximacionesDePi.dll.a
+  TARGET_PDB = AproximacionesDePi.exe.dbg
 
 
 #############################################
@@ -152,7 +152,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build imgui_PI: phony imgui_PI.exe
+build AproximacionesDePi: phony AproximacionesDePi.exe
 
 # =============================================================================
 # Folder targets.
@@ -162,7 +162,7 @@ build imgui_PI: phony imgui_PI.exe
 #############################################
 # Folder: C:/msys64/home/place/Codigo/MatematicaImgui/AproximacionPi/build
 
-build all: phony imgui_PI.exe
+build all: phony AproximacionesDePi.exe
 
 # =============================================================================
 # Built-in targets

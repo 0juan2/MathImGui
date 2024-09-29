@@ -1,11 +1,19 @@
 # ninja log v6
 49	2734	7492725463642779	CMakeFiles/imgui_PI.dir/imgui/backends/imgui_impl_opengl3.cpp.obj	6f11695de6d0a325
 28	1915	7492725463402778	CMakeFiles/imgui_PI.dir/imgui/imgui_demo.cpp.obj	514aafc6f8f30349
-14	1401	7493267035190914	CMakeFiles/imgui_PI.dir/main.cpp.obj	5fbc027b5916515c
+14	1381	7493273673155657	CMakeFiles/imgui_PI.dir/main.cpp.obj	5fbc027b5916515c
 43	3447	7492725463572776	CMakeFiles/imgui_PI.dir/imgui/backends/imgui_impl_glfw.cpp.obj	852bea7782731e4e
 20	5328	7492725463332775	CMakeFiles/imgui_PI.dir/imgui/imgui.cpp.obj	d81569fe41448d5b
 35	2907	7492725463482775	CMakeFiles/imgui_PI.dir/imgui/imgui_tables.cpp.obj	c2c0a6554896b3e5
 23	3747	7492725463372779	CMakeFiles/imgui_PI.dir/imgui/imgui_draw.cpp.obj	21c4231a0b5e19d5
-16	184	7493266632578456	imgui_PI.exe	d35a3e19f8d4aff5
+1382	1547	7493273686826103	imgui_PI.exe	d35a3e19f8d4aff5
 31	4108	7492725463442789	CMakeFiles/imgui_PI.dir/imgui/imgui_widgets.cpp.obj	c0842097bf7f72d4
-15	187	7493267081253336	imgui_PI.exe	d35a3e19f8d4aff5
+51	1710	7493274141446679	CMakeFiles/AproximacionesDePi.dir/imgui/backends/imgui_impl_opengl3.cpp.obj	81d113dd6d4616a9
+21	2149	7493274141146668	CMakeFiles/AproximacionesDePi.dir/imgui/imgui_demo.cpp.obj	66bbe5257ac786ad
+43	2196	7493274141376674	CMakeFiles/AproximacionesDePi.dir/imgui/backends/imgui_impl_glfw.cpp.obj	ee17f7ade8251c73
+29	2291	7493274141276697	CMakeFiles/AproximacionesDePi.dir/imgui/imgui_tables.cpp.obj	3bcdd2077d4f3e2a
+10	2444	7493274141036656	CMakeFiles/AproximacionesDePi.dir/main.cpp.obj	e599eb099ea6f0fd
+18	2970	7493274141116674	CMakeFiles/AproximacionesDePi.dir/imgui/imgui_draw.cpp.obj	4a99bc320a68617b
+25	3336	7493274141186674	CMakeFiles/AproximacionesDePi.dir/imgui/imgui_widgets.cpp.obj	5c3e7d7f978c176a
+14	4451	7493274141076657	CMakeFiles/AproximacionesDePi.dir/imgui/imgui.cpp.obj	f1520ce0fb727a65
+4452	4622	7493274185446662	AproximacionesDePi.exe	8923e3620030c5c5

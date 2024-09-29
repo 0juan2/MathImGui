@@ -150,7 +150,7 @@ int ventana(GLFWwindow* window){
 				{
 					ImGui::BeginChild("Scrolling", ImVec2(ImGui::GetContentRegionAvail().x * 0.3f, 200));
 					if (counter > 10){
-						row1 = counter -10;
+						row1 = counter -11;
 						}else{
 						row1 = 0;
 					}
@@ -222,7 +222,7 @@ int ventana(GLFWwindow* window){
 				{
 					
 					ImGui::BeginChild("Scrolling3", ImVec2(ImGui::GetContentRegionAvail().x , 300));
-					ImGui::Text("Iteraciones de Pi");
+					ImGui::Text("Iteraciones de Pi Wallis");
 					ImVec2 graph_size(ImGui::GetContentRegionAvail().x * 0.8f, 200);  // Ancho = 500, Alto = 200 (ajusta según lo que necesites)
 					ImGui::PlotLines("Grafico 2", (float*)arr.data(), arr.size(), 0, nullptr, FLT_MAX, FLT_MAX, graph_size);					
 					ImGui::EndChild();
@@ -275,7 +275,7 @@ int ventana(GLFWwindow* window){
 				{
 					
 					ImGui::BeginChild("Scrolling3", ImVec2(ImGui::GetContentRegionAvail().x , 300));
-					ImGui::Text("Iteraciones de Pi");
+					ImGui::Text("Iteraciones de Pi Euler");
 					ImVec2 graph_size(ImGui::GetContentRegionAvail().x * 0.8f, 200);  // Ancho = 500, Alto = 200 (ajusta según lo que necesites)
 					ImGui::PlotLines("Grafico 2", (float*)arr.data(), arr.size(), 0, nullptr, FLT_MAX, FLT_MAX, graph_size);
 					
@@ -327,7 +327,7 @@ int ventana(GLFWwindow* window){
 				ImGui::SameLine();
 				{
 					ImGui::BeginChild("Scrolling2", ImVec2(ImGui::GetContentRegionAvail().x , 300));
-					ImGui::Text("Iteraciones de Pi");
+					ImGui::Text("Iteraciones de Pi Basilea");
 					ImVec2 graph_size(ImGui::GetContentRegionAvail().x * 0.8f, 200);  // Ancho = 500, Alto = 200 (ajusta según lo que necesites)
 					ImGui::PlotLines("Grafico 1", (float*)arr.data(), arr.size(), 0, nullptr, FLT_MAX, FLT_MAX, graph_size);
 					
@@ -374,7 +374,7 @@ int main(){
 	
 	int width = 400, height = 400;  
 	const GLFWvidmode* mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
-	GLFWwindow* window = glfwCreateWindow(mode->width, mode->height, "Pi Basilea", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(mode->width, mode->height, "Aproximaciones de Pi", nullptr, nullptr);
 	if (!window) {
 		glfwTerminate();
 		return 1;
